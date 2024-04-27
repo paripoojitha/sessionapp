@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="./add" method="post">
+    {% csrf_token %}
+    <h1>
+        enter fno:<input type="text" name="t1"><br>
+        enter sno:<input type="text" name="t2"><br>
+        <input type="submit" value="add">
+    </h1>
+</form>
+</body>
+</html>
